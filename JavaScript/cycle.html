@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Цикл</title>
+</head>
+<body>
+<script>
+    var num;
+    while (true) {
+      num = prompt('Введите число, больше 100: ', 0);
+      if (num > 100) {
+        alert('Ваше число: ' + num + '.');
+        break;
+      } else if (num === null) {
+        alert('Вы нажали кнопку «Отмена».');
+        break;
+      } else {
+        alert('Введите ещё раз.');
+      }
+    }
+</script>
+</body>
+</html>
