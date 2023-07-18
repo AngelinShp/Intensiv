@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    var sum = 0;
+    var count = 0;
+
+    for (var i = 1; i <= 10; i++)
+    {
+        if (i % 2 !== 0) // проверяем, является ли число нечетным
+        {
+            sum += i; // добавляем число к сумме
+            count++; // увеличиваем счетчик на 1
+        }
+    }
+    var average = sum / count; // вычисляем среднее арифметическое
+    console.log(average); // 5 (среднее арифметическое всех нечетных чисел от 1 до 10)
+
+  </script>
+</body>
+</html>
