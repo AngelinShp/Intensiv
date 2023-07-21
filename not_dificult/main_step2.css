@@ -1,0 +1,34 @@
+.information{
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-between;
+
+}
+
+.text-button {
+    display:flex;
+flex-direction: column;
+}
+
+.text-button-title{
+    display:flex;
+
+    font-family: Montserrat;
+}
+
+.text-button-inf{
+    display:flex;
+    font-family: Montserrat;
+
+}
+
+.pieces-text-image {
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.piece-text-image{
+    width: 50%;
+    margin-bottom: 20px;
+}
