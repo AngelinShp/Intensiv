@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function showMessage(msg) {
+    let name=prompt('What is your name?')
+    alert('Hi, '+ name + '!' + msg)
+  }
+  function calc(a, b) {
+        return a+b;
+  }
+
+    let res = calc(2, 3)
+    let res2 = calc(res, 5)
+<!--  alert(res + '...' + res2)-->
+<!--  showMessage('How are you?')-->
+<!--  showMessage("What's up?")-->
+
+let userName='Настя'
+function showMessage() {
+    userName='Маша'
+    alert('Hi, '+ userName + '!') //локальная Маша
+  }
+
+  alert(userName) //глобальная Настя
+  showMessage() //запуск функции с локальной Машей
+
+
+
+</script>
+</body>
+</html>
