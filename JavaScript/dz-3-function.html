@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork</title>
+</head>
+<body>
+<!--Составьте программу, рассчитывающую чистую зарплату
+с учётом налоговых вычетов. Если оклад меньше 100 000
+рублей, то налоги составляют 35%, если больше – то 45%.
+Представьте это в виде функции. Программа должна
+спрашивать пользователя о новом расчёте зарплаты-->
+<script>
+function counter() {
+    let summ = prompt('Введите вашу ЗП:');
+    if (summ<100000) {
+        return summ-=summ*0.35
+    }
+    else {
+        return summ-=summ*0.45
+    }
+}
+
+alert(counter())
+</script>
+</body>
+</html>
