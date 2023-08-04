@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timeouts</title>
+    <script>
+        var tasks = [];
+		function add_task() {
+			task = prompt('Что вам нужно сделать?');
+			tasks.push(task);
+		}
+		function showTasks() {
+			alert(tasks);
+		}
+		let timer=setTimeout(sendMessage, 5000);
+		function sendMessage() {
+		    if (tasks.length == 0) {
+		        alert('Вы ничего не забыли?:)')
+		    }
+		    else {
+		        alert('У вас осталось: ' + tasks.length + ' задач')
+		    }
+		}
+    </script>
+</head>
+    <body>
+        <h1>Трекер задач</h1>
+	    <p><input value="Добавить задачу" onclick="add_task()" type="button"></p>
+	    <p><input value="Вывести весь список одной строкой" onclick="showTasks()" type="button"></p>
+    </body>
+</html>

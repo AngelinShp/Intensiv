@@ -9,10 +9,28 @@
 			task = prompt('Что вам нужно сделать?');
 			tasks.push(task);
 		}
+		function showTasks() {
+			alert(tasks);
+		}
+		function showTask() {
+			for(let i=0; i<tasks.length; i++) {
+				alert(tasks[i]);
+			}
+
+		}
+		function delTask() {
+<!--			tasks.splice(2, 2)-->
+			tasks.pop()
+		}
+
 	</script>
 </head>
 <body>
 	<h1>Трекер задач</h1>
 	<p><input value="Добавить задачу" onclick="add_task()" type="button"></p>
-	</body>
+	<p><input value="Вывести весь список одной строкой" onclick="showTasks()" type="button"></p>
+	<p><input value="Вывести список поочерёдно" onclick="showTask()" type="button"></p>
+	<p><input value="Удалить задачу из конца" onclick="delTask()" type="button"></p>
+
+</body>
 </html>
