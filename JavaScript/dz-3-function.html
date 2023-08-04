@@ -22,6 +22,17 @@ function counter() {
 }
 
 alert(counter())
+<!--второй вариант-->
+  function showMessage() {
+    let salary = prompt("Введите вашу зарплату");
+        if ( salary > 100000){
+            alert(salary - salary * 45 / 100);
+        }
+        else {
+            alert(salary - salary * 35 / 100);
+        }
+  }
+  showMessage()
 </script>
 </body>
 </html>
