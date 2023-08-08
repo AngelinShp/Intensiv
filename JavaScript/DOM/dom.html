@@ -17,6 +17,10 @@
         let tasks_list=document.getElementById('current')
         let task_number=prompt('Введите номер сделанной задачи')
 
+        let tasks_del_list=document.getElementById('done')
+        let del_task=tasks_list.childNodes[task_number-1].cloneNode(true)
+        tasks_del_list.appendChild(del_task)
+
         tasks_list.removeChild(tasks_list.childNodes[task_number-1])
 
 
