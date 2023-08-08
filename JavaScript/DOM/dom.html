@@ -5,6 +5,7 @@
     <title>DOM</title>
     <script>
 <!--    document.body.innerHTML='какой-то текст'-->
+
     function add_task(){
         let tasks_list=document.getElementById('current') //поиск элемента по id
         let new_task=document.createElement('li') //создание элемент списка
@@ -13,6 +14,12 @@
     }
 
     function del_task(){
+        let tasks_list=document.getElementById('current')
+        let task_number=prompt('Введите номер сделанной задачи')
+
+        tasks_list.removeChild(tasks_list.childNodes[task_number-1])
+
+
     }
 </script>
 </head>
