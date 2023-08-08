@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <title>DOM</title>
     <script>
+<!--    document.body.innerHTML='какой-то текст'-->
     function add_task(){
+        let tasks_list=document.getElementById('current') //поиск элемента по id
+        let new_task=document.createElement('li') //создание элемент списка
+        new_task.innerHTML=prompt('Что вам нужно сделать?')
+        tasks_list.appendChild(new_task)
     }
+
     function del_task(){
     }
 </script>
