@@ -20,7 +20,6 @@
         let tasks_del_list=document.getElementById('done') //поиск элемента страницы с id 'done'
         let del_task=tasks_list.childNodes[task_number-1].cloneNode(true) //клонирование элемента списка (завершённой задачи)
         tasks_del_list.appendChild(del_task) //добавление элемента списка (завершённой задачи)
-
         tasks_list.removeChild(tasks_list.childNodes[task_number-1]) //удаление элемента списка (через родительский список удаляется узел-элемент)
 
 

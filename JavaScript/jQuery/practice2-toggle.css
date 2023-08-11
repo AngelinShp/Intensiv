@@ -1,0 +1,21 @@
+* {
+  font-family: Tahoma;
+}
+.article-name {
+  border: 5px solid #0168ac;
+  border-radius: 10px;
+  padding: 20px;
+}
+.article-body {
+  padding: 20px;
+}
+
+.article-text {
+  padding: 20px;
+  font-style: normal;
+}
+
+.article-img {
+  height: 30%;
+  width: 30%;
+}
