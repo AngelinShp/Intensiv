@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery</title>
+	<link rel='stylesheet' href='jQuery.css'>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	</head>
+	<body>
+		<h1></h1>
+		<p><input value="Работает?" type="button"></p>
+	</body>
+	<script>
+		$('input').click(function () {
+		  $('input').css({ fontFamily: 'Tahoma', fontSize: '50px' });
+		  work();
+		})
+		function work() {
+		  alert('Работает. Не трогай!');
+		}
+	</script>
+</html>
