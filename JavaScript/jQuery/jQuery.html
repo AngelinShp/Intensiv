@@ -11,10 +11,12 @@
 		<p><input value="Работает?" type="button"></p>
 	</body>
 	<script>
-		$('input').click(function () {
-		  $('input').css({fontFamily: 'Tahoma'});
+		$('input').click(
+			function () {
+		  $('input').css({fontSize: '30px'});
 		  work();
 		})
+
 		function work() {
 		  alert('Работает. Не трогай!');
 		}
