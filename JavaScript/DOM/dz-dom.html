@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <script>
+<!--    document.body.innerHTML='какой-то текст'-->
+
+    function add_task(){
+        let tasks_list=document.getElementById('current') //поиск элемента страницы с id 'current'
+        let new_task=document.createElement('li') //создание элемента списка
+        new_task.innerHTML=prompt('Что вам нужно сделать?') //запрос введения пользователем с клавиатуры задачи, которую нужно будет выполнить И запись этого текста в элемент new_task списка tasks_list
+        tasks_list.appendChild(new_task) //добавление дочернего элемента new_task (запланированной задачи) в родительский список tasks_list
+    }
+
+    function del_task(){
+        let tasks_list=document.getElementById('current') //поиск элемента страницы с id 'current'
+        let task_number=prompt('Введите номер сделанной задачи') //запрос введения пользователем с клавиатуры информации о завершённой задаче
+
+        let tasks_del_list=document.getElementById('done') //поиск элемента страницы с id 'done'
+        let del_task=tasks_list.childNodes[task_number-1].cloneNode(true) //клонирование элемента списка (завершённой задачи)
+        tasks_del_list.appendChild(del_task) //добавление элемента списка (завершённой задачи)
+
+        tasks_list.removeChild(tasks_list.childNodes[task_number-1]) //удаление элемента списка (через родительский список удаляется узел-элемент)
+
+
+    }
+</script>
+</head>
+<body>
+    <input value="Добавить задачу" onclick="add_task()" type="button">
+    <input value="Удалить задачу" onclick="del_task()" type="button">
+    <h1>Текущие задачи</h1>
+    <ol id="current"></ol>
+    <h1>Завершённые задачи</h1>
+    <ol id="done"></ol>
+</body>
+</html>
