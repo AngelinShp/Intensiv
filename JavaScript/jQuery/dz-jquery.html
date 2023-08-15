@@ -14,7 +14,7 @@
 				position: absolute;
 			}
 		</style>
-		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./jquery-3.6.1.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -23,6 +23,12 @@
 		</div>
 	</body>
 	<script>
+	$('.img-2').click(function () {
+	  $('.img-2').slideUp('fast')
+	})
 
+	$('.img-1').click(function () {
+	  $('.img-2').slideDown('fast')
+	})
 	</script>
 </html>
