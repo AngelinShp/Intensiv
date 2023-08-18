@@ -80,6 +80,13 @@ $('.article-list').click(function (event) {
     $(event.target).wrap('<del></del>')
 })
 
+//дз
+$('a').click(function () {
+    $('a').removeAttr('title');
+    $('a').attr('href', 'https://maximumtest.ru/');
+    $('a').html('Посетить сайт школы MAXIMUM Education');
+});
+
 
 
 
