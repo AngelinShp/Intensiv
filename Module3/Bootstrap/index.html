@@ -14,11 +14,41 @@
 </head>
 <body>
     <h1>Изучаем Bootstrap</h1>
-    <div class="containe">
-        <div class="block-1 col-12 col-md-4">Блок 1</div>
-        <div class="block-2 col-12 col-md-4">Блок 2</div>
-        <div class="block-3 col-12 col-md-4">Блок 3</div>
-        <div class="block-4 col-12 col-md-4">Блок 4</div>
+    <div class="container">
+        <div class="block-1 col-lg-6 col-sm-2">Блок 1</div>
+        <div class="block-2 col-sm-2 col-lg-6">Блок 2</div>
+        <div class="block-3 col-sm-2 col-lg-6">Блок 3</div>
+        <div class="block-4 col-sm-2 col-lg-6">Блок 4</div>
     </div>
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="Пум">
+  <div class="card-body">
+    <h5 class="card-title">Заголовок карточки</h5>
+    <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+    <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+  </div>
+
+</div>
 </body>
 </html>
