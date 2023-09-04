@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6f51d5a-9d14-4a5f-b33f-dd0b07b47051" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../4_PHP_intro/dz-intro(domains).php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4_PHP_intro/intro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AngelinShp.github.io" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3_Bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3_Bootstrap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../animation/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../animation/dop_anim_card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../animation/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../animation/img/gp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../animation/task2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../animation/task3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../animation/task4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../banner-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cat2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dz2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flexbox/flexbox_begin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/flexbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/img/banner-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/img/footer-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/img/p1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/img/vk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/img/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../landing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lesson_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/icons/css.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/icons/css.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/icons/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/icons/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/icons/git.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/icons/git.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/icons/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/icons/html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/icons/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/icons/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/icons/javascript.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/icons/javascript.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/icons/vk.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/icons/vk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../not_dificult/main_step2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module1/not_dificult/main_step2.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Uvjjr7VkfVZvJCLANtRKPJE0Ix" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6f51d5a-9d14-4a5f-b33f-dd0b07b47051" name="Changes" comment="" />
+      <created>1693827091490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693827091490</updated>
+    </task>
+    <servers />
+  </component>
+</project>
