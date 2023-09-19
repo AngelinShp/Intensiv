@@ -1,0 +1,15 @@
+<?php
+//
+//     echo 'Hello world!';
+//     var_dump($_GET);
+
+    var_dump($_GET);
+    if(isset($_GET['name'])) {
+        $name=$_GET['name'];
+        echo "Привет, $name";
+    }
+    else {
+        echo 'Введите параметр name';
+    }
+
+?>
